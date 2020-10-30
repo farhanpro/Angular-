@@ -1,0 +1,11 @@
+<div class = "container">
+  <header>
+  <h1>{{title}}</h1>
+  </header>
+  <main>
+    <h2>Current Count Is : {{count}}</h2> <!--/*interpolation*/ interpolation is used to inject a variable into html -->
+  </main>
+  <button (click) ="handelReset()"> Reset Count </button><!-- Event Binding is done on (click) event occuring on  click-->
+  <button (click) ="handelIncrease()">Increased Count</button>
+  <button (click) = "handelDecrease()">Decreased Count</button>
+</div>
